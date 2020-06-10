@@ -1,0 +1,130 @@
+/* page banner 
+*/
+.page-banner {
+    background-image: url(../hotel-images/fac2.jpg);
+    height: 587px;
+    margin-bottom: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caption h1 {
+    color: white;
+    padding-top: 15rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: .1rem .1rem .1rem black;
+}
+
+/* Facilities section */
+
+
+#facilities {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.facilities-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-bottom: 3rem;
+}
+
+.card-header {
+    text-align: center;
+    background: linear-gradient(to right, #BC680E, #BC680E);
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.card {
+    width: 311px;
+    height: 341px;
+    align-items: center;
+}
+
+.content {
+    width: 400px;
+    height: 341px;
+    align-items: center;
+}
+
+.restaurant-bg {
+    background-image: url(../hotel-images/food.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.conference-hall {
+    background-image: url(../hotel-images/hall.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.sports-ground {
+    background-image: url(../hotel-images/sport.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.swimming-pool {
+    background-image: url(../hotel-images/swim.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.spa {
+    background-image: url(../hotel-images/spa.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.gym {
+    background-image: url(../hotel-images/gym.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.card-footer {
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+}
+
+.button {
+    align-items: center;
+    background-color: #F77F00;
+    ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 39px 8px 28px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1rem;
+    width: 14rem;
+
+}
+
+/* medias queries for responsiveness*/
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 622px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .card {
+        width: 1244px;
+        overflow: hidden;
+    }
+}
